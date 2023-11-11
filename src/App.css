@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.enroll-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+
+.enroll-button:hover,
+.enroll-button:focus {
+  background-color: #0a2541; 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: grey; 
+  color: white;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-section {
+  flex: 1;
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(154, 154, 210);
+  margin-bottom: 0;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+/* .get-started-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+.hero-details {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.code-block {
+  background-color: #222;
+  padding: 20px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+
+.get-started-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px; 
+}
+
+
+.get-started-button:hover,
+.get-started-button:focus {
+  background-color: #011d3a;
+}
+
+
+
+.lower-section {
+  flex: 1;
+  background-color: cream;
+  
+  text-align: center;
+  margin-top: 0;
+}
+
+.lower-section p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lower-section img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.student-images {
+  display: flex;
+  justify-content: center;
+}
+
+.student-images img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.lower-section-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.rest-of-page {
+  flex: 1;
+  background-color: rgb(24, 82, 111);
+  padding : 199px;
+  margin : 0px;
+  /* margin-left: 200px;; */
+}
+
+
+
+.space-after-button {
+  height: 40px; 
+}
+
+.code-block {
+  background-color: #222;
+  padding: 20px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
